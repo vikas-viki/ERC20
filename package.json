@@ -1,0 +1,30 @@
+{
+  "name": "erc20",
+  "version": "1.0.0",
+  "description": "erc20 implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikas-viki/ERC20.git"
+  },
+  "keywords": [
+    "ERC20"
+  ],
+  "author": "Vikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikas-viki/ERC20/issues"
+  },
+  "homepage": "https://github.com/vikas-viki/ERC20#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
